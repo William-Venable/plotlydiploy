@@ -12,21 +12,9 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center" style="background-color:#b3e5fc">
-        <img class ="mr-3" src="static/images/bacteria.jpeg" height="15%" width="15%">
+      <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <h2 class> Overview of Project</h2>
-        <p> In this analysis, Improbable Beef is searching for bacteria that will provide the best taste. The hypothesis is that ideal bacteria to make synthetic beef is found in the belly button. We are helping our client, Roza, who wants to build dashboard that research participants and researchers can access. The dashboard would include specific data by the research participants' IDs to show the following:
-          <li>Demographic panel of the participant</li>
-          <li>Bar chart of the top 10 bacteria cultures found in the participant's belly button samples</li>
-          <li>Bubble chart showing the bacteria cultures found in the participant's belly button samples, with the size of the bubbles corresponding to the amount found</li>
-          <li>Guage chart that displays the test subject's weekly washing frequency's value as a measure from 0 - 10.</li>
-         </p>
+        <p>Three interactive charts that display the bacterial data for belly buttons.</p>
       </div>
     </div>
     <div class="row">
@@ -44,18 +32,18 @@
         </div>
       </div>
       <div class="col-md-5">
-        <div id="bar"></div>
-        <p class="p-3 mb-2 bg-info text-dark">This bar chart shows the top 10 bacteria cultures that were found in the test subject's samples. The x axis depicts the OTU ID and the y axis depicts the amount of each sample present. You can hover over the values for more details. </p>
+        <div id="bar">
+        </div>
       </div>
       <div class="col-md-5">
-        <div id="gauge"></div>
-        <p class="p-3 mb-2 bg-info text-dark"> This gauge chart displays test subject's weekly washing frequency's value as a measure from 0 - 10 on the progress bar when an individual ID is selected from the dropdown menu. </p>
+        <div id="gauge">
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
-        <p class="p-3 mb-2 bg-info text-dark"> This bubble chart depicts the test subject's OTU IDs as the x axis value, sample values as the y axis values and the marker size. You can hover over each bubble for additional details. </p>
+        <div id="bubble">
+        </div>
       </div>
     </div>
   </div>
