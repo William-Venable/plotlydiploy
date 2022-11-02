@@ -10,10 +10,10 @@
 </head>
 
 <body>
-
+<div class="bg-secondary"></div>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" style="background-image: url(https://s3.amazonaws.com/www-inside-design/uploads/2018/05/design-research-sq.jpg); height: 400px">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
@@ -34,14 +34,17 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <p class="p-3 mb-2 bg-info text-dark">This bar chart displays the top 10 bacteria speices based on an individual's ID, selected from the dropdown menu. </p>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>
+        <p class="p-3 mb-2 bg-info text-dark"> This gauge chart displays a test subject's weekly washing frequency's based on an individual's ID.  </p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p class="p-3 mb-2 bg-info text-dark"> This bubble chart displays the bacteria cultures per sample based on the individual's ID selected. </p>
       </div>
     </div>
   </div>
